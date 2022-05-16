@@ -1,0 +1,7 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/benqui/Documents/Practica04/Practica4'
+gcc  -Wall -fopenmp  -c -o Main.o Main.c
+gcc  -Wall -fopenmp  -c -o ParallelMatrix.o ParallelMatrix.c
+gcc -Wall -fopenmp -o Practica4 Main.o ParallelMatrix.o
+make: Leaving directory '/home/benqui/Documents/Practica04/Practica4'
+ 
